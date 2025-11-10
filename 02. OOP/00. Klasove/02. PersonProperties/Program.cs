@@ -4,23 +4,28 @@
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
+          var input=Console.ReadLine().Split(' ').ToList();
+            List<Person> persons = new List<Person>();
 
-            p.Name= "Ivan";
-            p.Age = 25;
-            p.Salary = 2000.40;
+            while (true)
+            {
+                if (input[0]=="Stop")
+                {
+                    break;
+                }
+                string name=input[0];
+                int age=int.Parse(input[1]);
+                double salary=double.Parse(input[2]);
+                Person p=new Person(name,age,salary);
+                persons.Add(p);
 
-            Console.WriteLine(p.ToString());
-            p.IntroduceYourself();
-            Console.WriteLine(p.Print());
+                input = Console.ReadLine().Split(' ').ToList();
+            }
+            foreach (var item in persons)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
-            Console.WriteLine();
-            Console.WriteLine(p.IncreaseSalary(10));
-            p.IntroduceYourself();
-
-            Console.WriteLine("===========");
-            Person p2 = new Person("  ",23,2000);
-            p2.IntroduceYourself();
         }
 
 
