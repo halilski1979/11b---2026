@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-tema2-4w-4-OldestMember", "00-tema2-4w-4-OldestMember\00-tema2-4w-4-OldestMember.csproj", "{59308AFB-8E83-4F82-8DF2-FB4C0AECF671}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-tema2-w4-5-Prouchvane", "01-tema2-w4-5-Prouchvane\01-tema2-w4-5-Prouchvane.csproj", "{2342A138-11E2-4D4A-A360-31A9E6791E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. PersonValidation", "03. PersonValidation\03. PersonValidation.csproj", "{5497A177-1093-4100-88A9-77CC1624BA65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2342A138-11E2-4D4A-A360-31A9E6791E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2342A138-11E2-4D4A-A360-31A9E6791E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2342A138-11E2-4D4A-A360-31A9E6791E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5497A177-1093-4100-88A9-77CC1624BA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5497A177-1093-4100-88A9-77CC1624BA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5497A177-1093-4100-88A9-77CC1624BA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5497A177-1093-4100-88A9-77CC1624BA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
