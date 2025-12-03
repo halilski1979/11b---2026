@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _04._VirtualMethod
+{
+    internal class Cat:Animal
+    {
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{GetType().Name} meaow...");
+        }
+    }
+}
