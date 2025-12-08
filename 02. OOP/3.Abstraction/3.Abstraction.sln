@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Demo", "01. Demo\01. Demo.csproj", "{9C7A7B2C-6CD3-4524-928B-76958D08313E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Abstract_Zoo", "02. Abstract_Zoo\02. Abstract_Zoo.csproj", "{F29F0412-DCC2-4AE0-9D1D-76F77DF97466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. AnimalsKingdom", "03. AnimalsKingdom\03. AnimalsKingdom.csproj", "{1B7638A8-A290-4963-A90E-5EF0B0FD0822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Employee", "04. Employee\04. Employee.csproj", "{A6A4CC2C-0680-46E9-836E-81F86FCBF7A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F29F0412-DCC2-4AE0-9D1D-76F77DF97466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29F0412-DCC2-4AE0-9D1D-76F77DF97466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29F0412-DCC2-4AE0-9D1D-76F77DF97466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7638A8-A290-4963-A90E-5EF0B0FD0822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7638A8-A290-4963-A90E-5EF0B0FD0822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7638A8-A290-4963-A90E-5EF0B0FD0822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7638A8-A290-4963-A90E-5EF0B0FD0822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A4CC2C-0680-46E9-836E-81F86FCBF7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A4CC2C-0680-46E9-836E-81F86FCBF7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A4CC2C-0680-46E9-836E-81F86FCBF7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A4CC2C-0680-46E9-836E-81F86FCBF7A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
