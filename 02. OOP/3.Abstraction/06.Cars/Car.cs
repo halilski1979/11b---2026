@@ -37,9 +37,17 @@ namespace _06.Cars
 
         }
 
-        public void Refuel(double liters)
+        public void Refuel(double litres)
         {
-            Fuel+= liters;
+            if (litres < 0 || litres > FuelCapacity)
+            {
+                Console.WriteLine("Cannot fit fuel in car");
+            }
+            else
+            {
+                Fuel += litres; // 100%
+            }
+           
         }
 
         public override string ToString()

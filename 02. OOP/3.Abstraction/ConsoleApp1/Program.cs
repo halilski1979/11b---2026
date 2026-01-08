@@ -4,15 +4,16 @@
     {
         static void Main(string[] args)
         {
-            double a = 13;
-            double b = 3;
+            Func<double, double> addVat = p => p * 1.2;
+            double[] prices = Console.ReadLine()
+                .Split(new string[] { ", " },
+                    StringSplitOptions.RemoveEmptyEntries)
+                .Select(double.Parse)
+                .Select(addVat)
+                .ToArray();
+            foreach (var price in prices)
+                Console.WriteLine($"{price:f2}");
 
-            Console.WriteLine(a + b);
-            Console.WriteLine(a - b);
-            Console.WriteLine(a * b);
-
-            Console.WriteLine(a / b);//Целочислено
-            
         }
     }
 }

@@ -8,10 +8,11 @@ namespace _06.Cars
 {
     internal class Truck : IVehicle
     {
-        public Truck(double fuel, double litersPerKm)
+        public Truck(double fuel, double litersPerKm,double fuelCapacity)
         {
             Fuel = fuel;
             LitersPerKm = litersPerKm+1.6;
+            FuelCapacity = fuelCapacity;
             Distance = 0;
         }
 
@@ -35,9 +36,17 @@ namespace _06.Cars
             }
         }
 
-        public void Refuel(double liters)
+        public void Refuel(double litres)
         {
-           Fuel += (liters*0.95);
+            if (litres < 0 || litres > FuelCapacity)
+            {
+                Console.WriteLine("Cannot fit fuel in tank");
+            }
+            else
+            {
+                Fuel += litres * 0.95; // 100%
+            }
+               
         }
 
         public override string ToString()
