@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p11 - Z2 - TopNumbers", "p1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p15 - Z5 - CryptArrays", "p15 - Z5 - CryptArrays\p15 - Z5 - CryptArrays.csproj", "{CD96A499-2955-46CC-B5EC-2C23F99BE0B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F19FF260-3424-476B-964E-045934A7CD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. ArrastWitnCOmmand", "16. ArrastWitnCOmmand\16. ArrastWitnCOmmand.csproj", "{8A8F6E3F-F9F6-4D7B-B999-E0076EA43F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{CD96A499-2955-46CC-B5EC-2C23F99BE0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD96A499-2955-46CC-B5EC-2C23F99BE0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD96A499-2955-46CC-B5EC-2C23F99BE0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19FF260-3424-476B-964E-045934A7CD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19FF260-3424-476B-964E-045934A7CD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19FF260-3424-476B-964E-045934A7CD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19FF260-3424-476B-964E-045934A7CD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8F6E3F-F9F6-4D7B-B999-E0076EA43F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8F6E3F-F9F6-4D7B-B999-E0076EA43F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8F6E3F-F9F6-4D7B-B999-E0076EA43F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8F6E3F-F9F6-4D7B-B999-E0076EA43F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
