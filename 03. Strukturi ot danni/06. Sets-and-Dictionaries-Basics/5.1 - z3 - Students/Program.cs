@@ -1,0 +1,30 @@
+﻿namespace _5._1___z3___Students
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            Dictionary<string, List<double>> students = new Dictionary<string, List<double>>();
+
+            for (int i = 0; i < n; i++)
+            {
+                string[] input = Console.ReadLine().Split();
+                string name = input[0];
+                double grade = double.Parse(input[1]);
+
+                if (!students.ContainsKey(name))
+                    students[name] = new List<double>();
+
+                students[name].Add(grade);
+            }
+
+            foreach (var item in students)
+            {
+                string grades = string.Join(" ", item.Value.Select(g => g.ToString("F2")));
+                double avg = item.Value.Average();
+                Console.WriteLine($"{item.Key} -> {grades} (avg: {avg:F2})");
+            }
+        }
+    }
+}
