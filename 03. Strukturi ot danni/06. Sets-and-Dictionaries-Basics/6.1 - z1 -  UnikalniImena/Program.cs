@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int n = int.Parse(Console.ReadLine());
+            SortedSet<string> elements = new SortedSet<string>();
+
+            for (int i = 0; i < n; i++)
+            {
+                string[] compounds = Console.ReadLine().Split();
+                foreach (string element in compounds)
+                {
+                    elements.Add(element); // добавя само уникални елементи
+                }
+            }
+
+            Console.WriteLine(string.Join(" ", elements));
         }
     }
 }
