@@ -4,20 +4,28 @@
     {
         static void Main(string[] args)
         {
+            List<string> list = new List<string>();
+            list.Add("Pesho");
+            list.Add("Pesho");
+            list.Add("Gosho");
+            Console.WriteLine(string.Join(" ", list));
+            Console.WriteLine(list.Count());
+
+            list=list.Distinct().ToList();
+            Console.WriteLine(string.Join(" ", list));
+
+            Console.WriteLine();
             HashSet<string> set = new HashSet<string>();
             set.Add("Pesho");
-            set.Add("Pesho"); // Не го добавя отново
+            set.Add("Pesho");
             set.Add("Gosho");
+            Console.WriteLine(string.Join(" ",set));
+            Console.WriteLine(set.Count());
 
-            Console.WriteLine(string.Join(", ", set)); // Pesho, Gosho
-
-
-            Console.WriteLine(set.Contains("Georgi")); // false
-            Console.WriteLine(set.Contains("Pesho")); // true
-            set.Remove("Pesho");
-            Console.WriteLine(set.Count); // 1
-
-
+            Console.WriteLine(set.Contains("Gosho"));
+            set.Remove("Gosho");
+            Console.WriteLine(string.Join(" ", set));
+            Console.WriteLine(set.Count());
         }
     }
 }
