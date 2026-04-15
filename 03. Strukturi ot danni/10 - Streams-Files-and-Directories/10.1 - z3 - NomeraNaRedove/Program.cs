@@ -26,7 +26,6 @@
                         writer.WriteLine(formattedLine); // Записваме в изходния файл
                         Console.WriteLine(formattedLine); // Показваме резултата и в конзолата
                         counter++;
-
                     }
                 }
             }
