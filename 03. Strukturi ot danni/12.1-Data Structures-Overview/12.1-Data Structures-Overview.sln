@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.1 - z1 - Unikalni-Imena", "12.1 - z1 - Unikalni-Imena\12.1 - z1 - Unikalni-Imena.csproj", "{1EA93ECC-DBF8-4104-81D5-C3A0FC92CF74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.1 - z1 - Unikalni-Imena-HashSet", "12.1 - z1 - Unikalni-Imena-HashSet\12.1 - z1 - Unikalni-Imena-HashSet.csproj", "{19E0CB26-729D-421A-AD0C-19A5B5ACCC8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.1 - z2 - Palindrom", "12.1 - z2 - Palindrom\12.1 - z2 - Palindrom.csproj", "{4918E34D-0948-4907-B7E8-C6C9A8CACE3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.1 - z2 - Palindrom - V2", "12.1 - z2 - Palindrom - V2\12.1 - z2 - Palindrom - V2.csproj", "{56D8D4CF-FEF0-49FB-8D40-ED80BC7DDB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.1 - z3 - ObedinenieMnojestva", "12.1 - z3 - ObedinenieMnojestva\12.1 - z3 - ObedinenieMnojestva.csproj", "{74B290A1-F8B6-4547-87F3-A5A3A1430D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EA93ECC-DBF8-4104-81D5-C3A0FC92CF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA93ECC-DBF8-4104-81D5-C3A0FC92CF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA93ECC-DBF8-4104-81D5-C3A0FC92CF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA93ECC-DBF8-4104-81D5-C3A0FC92CF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E0CB26-729D-421A-AD0C-19A5B5ACCC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E0CB26-729D-421A-AD0C-19A5B5ACCC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E0CB26-729D-421A-AD0C-19A5B5ACCC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E0CB26-729D-421A-AD0C-19A5B5ACCC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4918E34D-0948-4907-B7E8-C6C9A8CACE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4918E34D-0948-4907-B7E8-C6C9A8CACE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4918E34D-0948-4907-B7E8-C6C9A8CACE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4918E34D-0948-4907-B7E8-C6C9A8CACE3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D8D4CF-FEF0-49FB-8D40-ED80BC7DDB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8D4CF-FEF0-49FB-8D40-ED80BC7DDB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8D4CF-FEF0-49FB-8D40-ED80BC7DDB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8D4CF-FEF0-49FB-8D40-ED80BC7DDB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B290A1-F8B6-4547-87F3-A5A3A1430D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B290A1-F8B6-4547-87F3-A5A3A1430D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B290A1-F8B6-4547-87F3-A5A3A1430D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B290A1-F8B6-4547-87F3-A5A3A1430D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B756F1EC-DA50-455C-9321-108FDD151E94}
+	EndGlobalSection
+EndGlobal
