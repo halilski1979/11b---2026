@@ -1,9 +1,7 @@
-﻿namespace _02._Demo
+﻿namespace ConsoleApp3
 {
     internal class Program
     {
-       //ПЕРМУТАЦИЯ БЕЗ ПОВТОРЕНИЯ
-        
         static char[] elements = { 'a', 'b', 'c' };
         static int count = 0;
         static void Main(string[] args)
